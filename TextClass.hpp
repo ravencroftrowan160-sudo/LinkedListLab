@@ -2,7 +2,7 @@
 #ifndef TEXTCLASS_HPP
 #define TEXTCLASS_HPP
 
-#include <stdexception>//for exceptions
+#include <stdexcept>//for exceptions
 
 struct Node{
     char data;
@@ -19,5 +19,10 @@ public:
     //constructor/destructor
     TextClass();
     ~TextClass();
-    
+
+    void addHead(char value);
+    char getHead() const;
+    void removeHead();
 };
+
+#endif
