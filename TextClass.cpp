@@ -39,7 +39,7 @@ void removeHead(){
     head = head->next;
 
     if(head == nullptr){
-        tail == nullptr
+        tail == nullptr;
     }
 
     delete temp;
