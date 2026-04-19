@@ -15,7 +15,8 @@ private:
     Node* head;
     Node* tail;
     Node* current;
-
+    Node* lastFound;
+    
 public:
     //constructor/destructor
     TextClass();
@@ -33,7 +34,13 @@ public:
     bool find(char value) const;
     bool findRemove(char value);
 
-    void append(char* array);
+    void append(const TextClass& otherList);
+    bool findNext(char value);
+
+    void removeLast();
+    void insertLast(char value);
+
+    void thinkSolve(TextClass& otherList);
 };
 
 #endif

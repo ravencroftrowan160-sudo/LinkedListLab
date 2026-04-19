@@ -19,10 +19,10 @@
 
 // advanced tests
 #define TEST_APPEND
-//#define TEST_FIND_NEXT
-//#define TEST_REMOVE_LAST
-//#define TEST_INSERT_LAST
-//#define TEST_MIXED
+#define TEST_FIND_NEXT
+#define TEST_REMOVE_LAST
+#define TEST_INSERT_LAST
+#define TEST_MIXED
 
 // thinking test
 //#define THINK_TEST
