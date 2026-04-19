@@ -11,14 +11,14 @@
 
 // basic tests
 #define TEST_HEAD
-//#define TEST_TAIL
-//#define TEST_QUEUE
-//#define TEST_DISPLAY
-//#define TEST_FIND
-//#define TEST_FIND_REMOVE
+#define TEST_TAIL
+#define TEST_QUEUE
+#define TEST_DISPLAY
+#define TEST_FIND
+#define TEST_FIND_REMOVE
 
 // advanced tests
-//#define TEST_APPEND
+#define TEST_APPEND
 //#define TEST_FIND_NEXT
 //#define TEST_REMOVE_LAST
 //#define TEST_INSERT_LAST

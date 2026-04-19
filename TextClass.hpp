@@ -3,6 +3,7 @@
 #define TEXTCLASS_HPP
 
 #include <stdexcept>//for exceptions
+#include <string>
 
 struct Node{
     char data;
@@ -23,6 +24,16 @@ public:
     void addHead(char value);
     char getHead() const;
     void removeHead();
+
+    void addTail(char value);
+    char getTail() const;
+    void removeTail();
+
+    std::string displayList() const;
+    bool find(char value) const;
+    bool findRemove(char value);
+
+    void append(char* array);
 };
 
 #endif
